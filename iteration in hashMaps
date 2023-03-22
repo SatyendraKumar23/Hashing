@@ -1,0 +1,23 @@
+import java.util.*;
+public class iteration {
+    public static void main(String[] args) {
+        HashMap<String,Integer>map=new HashMap<>();
+    
+        //add
+        map.put("india",100);
+        map.put("china",50);
+        map.put("idonesia",90);
+        map.put("brazil",70);
+    
+        Set<String>keys=map.keySet();
+        System.out.println(keys);
+
+        for (String k2: keys) {
+            System.out.println("key"+k2+" ,+value="+map.get(k2));
+            
+        }
+
+
+    }
+    
+}
