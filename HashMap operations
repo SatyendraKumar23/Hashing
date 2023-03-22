@@ -1,0 +1,35 @@
+import java.util.*;
+public class HashmapOperations{
+    public static void main(String[] args) {
+    HashMap<String,Integer>map=new HashMap<>();
+
+    //add
+    map.put("india",100);
+    map.put("china",50);
+    map.put("idonesia",90);
+    map.put("brazil",70);
+
+    System.out.println(map);
+
+    //get
+    int population =map.get("india");
+    System.out.println(population);
+
+    //containskey
+    System.out.println(map.containsKey("china"));
+
+    //remove
+    System.out.println(map.remove("idonesia"));
+    System.out.println(map);
+
+    //size
+    System.out.println(map.size());
+
+    //isempty
+    System.out.println(map.isEmpty());
+
+    //cleaR
+    //map.clear();
+    }
+
+}
