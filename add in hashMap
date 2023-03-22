@@ -1,0 +1,15 @@
+import java.util.*;
+public class HashmapOperations{
+    public static void main(String[] args) {
+    HashMap<String,Integer>map=new HashMap<>();
+
+    //add
+    map.put("india",100);
+    map.put("china",50);
+    map.put("idonesia",90);
+    map.put("brazil",70);
+
+    System.out.println(map);
+    }
+
+}
