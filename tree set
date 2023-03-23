@@ -1,0 +1,13 @@
+import java.util.*;
+public class LinkedHashset {
+    public static void main(String[] args) {
+    //tree set(sorted in ascending order)
+        TreeSet<String>ts=new TreeSet<>();
+        ts.add("mumbai");
+        ts.add("raebreli");
+        ts.add("delhi");
+        ts.add("punjab");
+        System.out.println(ts);
+    }
+    
+}
