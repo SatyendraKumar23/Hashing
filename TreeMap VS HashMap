@@ -1,0 +1,24 @@
+import java.util.*;
+public class treemap {
+    public static void main(String[] args) {
+        TreeMap<String,Integer>TM=new TreeMap<>();// sorted order will print
+        TM.put("india",50);
+        TM.put("china",100);
+        TM.put("imdomnesia",20);
+        TM.put("pakistan",30);
+        TM.put("australia",50);
+
+        HashMap<String,Integer>map=new HashMap<>();//unordered
+        map.put("india",50);
+        map.put("china",100);
+        map.put("imdomnesia",20);
+        map.put("pakistan",30);
+        map.put("australia",50);
+
+        System.out.println(map);
+        System.out.println(TM);
+        
+
+    }
+    
+}
